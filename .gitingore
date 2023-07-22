@@ -1,0 +1,6 @@
+.env
+.boot.key
+.keystore_pass
+genisis.json
+node1
+node2
