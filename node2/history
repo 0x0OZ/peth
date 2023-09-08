@@ -1,0 +1,3 @@
+admin.addPeer("enode://39a18569cd721312f0ca4973ef9871d01170ce85e94cb9543836cd7ebad0112a3e00d087e46c4276fe890c97a6787e1a3af00da8cfb9d4adc804c3e72749f8ab@127.0.0.1:30307")
+admin.nodeInfo
+eth.blockNumber
