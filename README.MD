@@ -3,20 +3,13 @@ As puppeth has been deprecated in geth 1.11, and yet ethash(POW) is deprecated i
 
 ------
 
-###### The main four scripts that you will work with are:
+#### The main four scripts that you will work with are:
 
 - `prepare.sh` contains the configurations, including password of keystores, nodes datadirs, and network configurations such chainId, period between each block
-- `geth1.sh` the first nodes that will be holding the validator wallet and producing blocks
-- `geth2.sh` the second node
-- `geth3.sh` the third node
-
+- `geth1.sh`, `geth2.sh`, and `geth3.sh` the nodes that will be holding the validators keys and produce blocks
 
 # How to use 
-
-- change any configs you want in `prepare.sh` then execute the file `./prepare.sh`
-- run the first node by executing `./geth1.sh`
-- run the second node by executing `./geth2.sh` 
-- run the third node by executing `./geth2.sh` 
+start by preparing networks by executing `./prepare.sh`, run the `./bootnode` then execute the gethX scripts in any order.
 
 
 
